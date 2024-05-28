@@ -14,7 +14,7 @@ cred = credentials.Certificate("serviceAccountKey.json")
 firebase_admin.initialize_app(cred,{
     'databaseURL':"https://face-attendance-system-7861d-default-rtdb.firebaseio.com/",
     'storageBucket' : "face-attendance-system-7861d.appspot.com"
-})
+})                  
 
 bucket=storage.bucket()
 
